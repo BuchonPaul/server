@@ -59,7 +59,7 @@ app.get("/brocantes", async (req, res) => {
   }
 });
 
-app.get("/api/stations", async (req, res) => {
+app.get("/stations", async (req, res) => {
   const { latitude, longitude } = req.query;
 
   try {
